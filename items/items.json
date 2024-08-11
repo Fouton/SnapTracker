@@ -1,0 +1,149 @@
+﻿[
+  {
+    "name": "Pokemon Food",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/food.png",
+    "codes": "food"
+  },
+  {
+    "name": "Pester Ball",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/pester.png",
+    "codes": "pester"
+  },
+  {
+    "name": "Dash Engine",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/dash.png",
+    "codes": "dash"
+  },
+  {
+    "name": "PokeFlute",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/flute.png",
+    "codes": "flute"
+  },
+  {
+    "name": "Sign Detector",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/sign.png",
+    "codes": "sign"
+  },
+  {
+    "name": "Beach Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/beach.png",
+    "codes": "beach"
+  },
+  {
+    "name": "Tunnel Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/tunnel.png",
+    "codes": "tunnel"
+  },
+  {
+    "name": "Volcano Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/volcano.png",
+    "codes": "volcano"
+  },
+  {
+    "name": "River Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/river.png",
+    "codes": "river"
+  },
+  {
+    "name": "Cave Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/cave.png",
+    "codes": "cave"
+  },
+  {
+    "name": "Valley Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/valley.png",
+    "codes": "valley"
+  },
+  {
+    "name": "Rainbow Stage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/rainbow.png",
+    "codes": "rainbow"
+  },
+  {
+    "name": "Film Capacity",
+    "type": "consumable",
+    "img": "images/film.png",
+    "codes": "film",
+    "min_quantity": 15,
+    "max_quantity": 60,
+    "increment": 5,
+    "overlay_font_size": "16",
+    "allow_disabled": false
+  },
+	{
+    "name": "New Pokemon Pic",
+    "type": "consumable",
+    "img": "images/newpic.png",
+    "max_quantity": 63,
+    "overlay_font_size": "16",
+    "codes": "newpic"
+  },
+  {
+    "name": "Pokemon Sign Pic",
+    "type": "progressive",
+    "codes": "signpics",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/signpic0.png",
+        "codes": "0",
+        "img_mods": "@disabled"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/signpic1.png",
+        "codes": "1"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/signpic2.png",
+        "codes": "2"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/signpic3.png",
+        "codes": "3"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/signpic4.png",
+        "codes": "4"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/signpic5.png",
+        "codes": "5"
+      },
+      {
+        "inherit_codes": false,
+        "img": "images/signpic6.png",
+        "codes": "6"
+      }
+    ]
+  }
+]
