@@ -49,7 +49,11 @@ function onClear(slot_data)
                     obj.CurrentStage = 0
                     obj.Active = false
                 elseif v[2] == "consumable" then
-                    obj.AcquiredCount = 0
+                    if v[1] == "film" then
+                        obj.AcquiredCount = 15
+                    else
+                        obj.AcquiredCount = 0
+                    end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
                 end
