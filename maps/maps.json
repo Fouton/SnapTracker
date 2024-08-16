@@ -1,0 +1,44 @@
+[
+  {
+    "name": "beach",
+    "location_size": 17,
+    "location_border_thickness": 1,
+    "img": "images/BeachMap.png"
+  },
+  {
+    "name": "tunnel",
+    "location_size": 16,
+    "location_border_thickness": 1,
+    "img": "images/TunnelMap.png"
+  },
+  {
+    "name": "volcano",
+    "location_size": 17,
+    "location_border_thickness": 1,
+    "img": "images/VolcanoMap.png"
+  },
+  {
+    "name": "river",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "images/RiverMap.png"
+  },
+  {
+    "name": "cave",
+    "location_size": 19,
+    "location_border_thickness": 1,
+    "img": "images/CaveMap.png"
+  },
+  {
+    "name": "valley",
+    "location_size": 15,
+    "location_border_thickness": 1,
+    "img": "images/ValleyMap.png"
+  },
+  {
+    "name": "oakmew",
+    "location_size": 15,
+    "location_border_thickness": 1,
+    "img": "images/OakLand.png"
+  }
+]

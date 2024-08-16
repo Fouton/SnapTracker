@@ -1,67 +1,20 @@
 {
   "tracker_broadcast": {
-    "width": 242,
-    "height": 308,
-    "background": "#000000",
     "type": "array",
-    "orientation": "horizontal",
-    "margin": "0,-4",
+    "orientation": "vertical",
+    "margin": "0,0",
     "content": [
       {
-      "type": "itemgrid",
-      "h_alignment": "left",
-      "item_margin": "0,4",
-      "item_width": 176,
-      "item_height": 40,
-      "rows": [
-        [ "beach"],
-        [ "tunnel"],
-        [ "volcano"],
-        [ "river"],
-        [ "cave"],
-        [ "valley"]
-      ]
-    },
-    {
-      "type": "array",
-      "orientation": "vertical",
-      "margin": "0,0",
-      "content": [
-        {
-          "type": "itemgrid",
-          "h_alignment": "left",
-          "item_margin": "8,4",
-          "item_width": 40,
-          "item_height": 40,
-          "rows": [
-            [ "food","pester"],
-            [ "flute","dash"],
-            [ "sign","signpics"]
-          ]
-        },
-        {
-          "type": "itemgrid",
-          "h_alignment": "left",
-          "item_margin": "0,-24",
-          "item_width": 0,
-          "item_height": 0,
-          "rows": [
-            [ ""]
-          ]
-        },
-        {
-          "type": "itemgrid",
-          "h_alignment": "left",
-          "item_margin": "8,4",
-          "item_width": 55,
-          "item_height": 40,
-          "rows": [
-            [ "newpic"],
-            [ "film" ]
-          ]
-        }
-      ]
-    }
-  ]
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "item_grid"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,76 +1,99 @@
 ﻿{
-  "shared_item_grid": {
-    "type": "array",
-    "orientation": "horizontal",
-    "margin": "0,0",
-    "content": [
-      {
-      "type": "itemgrid",
-      "h_alignment": "left",
-      "item_margin": "0,4",
-      "item_width": 176,
-      "item_height": 40,
-      "rows": [
-        [ "beach"],
-        [ "tunnel"],
-        [ "volcano"],
-        [ "river"],
-        [ "cave"],
-        [ "valley"]
-      ]
-    },
-    {
-      "type": "array",
-      "orientation": "vertical",
-      "margin": "0,0",
-      "content": [
-        {
-          "type": "itemgrid",
-          "h_alignment": "left",
-          "item_margin": "8,4",
-          "item_width": 40,
-          "item_height": 40,
-          "rows": [
-            [ "food","pester"],
-            [ "flute","dash"],
-            [ "sign","signpics"]
-          ]
-        },
-        { //This is solely to buffer the borders cuz poptracker doesnt allow margins to work the way i want
-          "type": "itemgrid",
-          "h_alignment": "left",
-          "item_margin": "0,-24",
-          "item_width": 0,
-          "item_height": 0,
-          "rows": [
-            [ ""]
-          ]
-        },
-        {
-          "type": "itemgrid",
-          "h_alignment": "left",
-          "item_margin": "8,4",
-          "item_width": 55,
-          "item_height": 40,
-          "rows": [
-            [ "newpic"],
-            [ "film" ]
-          ]
-        }
-      ]
-    }
-  ]
-},
   "tracker_default": {
     "type": "container",
     "background": "#000000",
-    "width": 242,
-    "height": 308,
     "content": {
-      "type": "layout",
-      "dropshadow": false,
-      "margin": 1,
-      "key": "shared_item_grid"
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Oak's Lab & Rainbow Cloud",
+              "dock": "bottom",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "oakmew"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Beach",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "beach"
+                ]
+              }
+            },
+            {
+              "title": "Tunnel",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tunnel"
+                ]
+              }
+            },
+            {
+              "title": "Volcano",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "volcano"
+                ]
+              }
+            },
+            {
+              "title": "River",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "river"
+                ]
+              }
+            },
+            {
+              "title": "Cave",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cave"
+                ]
+              }
+            },
+            {
+              "title": "Valley",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "valley"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }

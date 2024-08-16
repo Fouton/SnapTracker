@@ -88,6 +88,7 @@
     "type": "consumable",
     "img": "images/film.png",
     "codes": "film",
+    "initial_quantity": 15,
     "min_quantity": 15,
     "max_quantity": 60,
     "increment": 5,
@@ -111,38 +112,32 @@
     "stages": [
       {
         "img": "images/signpic0.png",
-        "codes": "0",
         "img_mods": "@disabled"
       },
       {
         "inherit_codes": false,
-        "img": "images/signpic1.png",
-        "codes": "1"
+        "img": "images/signpic1.png"
       },
       {
         "inherit_codes": false,
-        "img": "images/signpic2.png",
-        "codes": "2"
+        "img": "images/signpic2.png"
       },
       {
         "inherit_codes": false,
-        "img": "images/signpic3.png",
-        "codes": "3"
+        "img": "images/signpic3.png"
       },
       {
         "inherit_codes": false,
-        "img": "images/signpic4.png",
-        "codes": "4"
+        "img": "images/signpic4.png"
       },
       {
         "inherit_codes": false,
-        "img": "images/signpic5.png",
-        "codes": "5"
+        "img": "images/signpic5.png"
       },
       {
         "inherit_codes": false,
         "img": "images/signpic6.png",
-        "codes": "6"
+        "codes": "allsigns"
       }
     ]
   }
