@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Tunnel",
+    "access_rules": [
+      "tunnel"
+    ],
+    "children": [
+      {
+        "name": "Pikachu",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Pikachu/Picture"
+          },
+          {
+            "name": "Pikachu on a Ball",
+            "ref": "Pikachu/Pikachu on a Ball"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 102,
+            "y": 479
+          }
+        ]
+      },
+      {
+        "name": "Electrode",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Electrode/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Electrode/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 190,
+            "y": 453
+          }
+        ]
+      },
+      {
+        "name": "Electabuzz",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Electabuzz/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 327,
+            "y": 478
+          }
+        ]
+      },
+      {
+        "name": "Kakuna",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Kakuna/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Kakuna/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 348,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Zubat",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Zubat/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 285,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Zapdos",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Zapdos/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 245,
+            "y": 268
+          }
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Magikarp/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 342,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Haunter: Picture",
+            "ref": "Haunter/Picture"
+          },
+          {
+            "name": "Zubat: Picture",
+            "ref": "Zubat/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 364,
+            "y": 258
+          }
+        ]
+      },
+      {
+        "name": "Electabuzz",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Electabuzz/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Electabuzz/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 466,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Diglett",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Diglett/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 440,
+            "y": 224
+          }
+        ]
+      },
+      {
+        "name": "Dugtrio",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Dugtrio/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Dugtrio/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 522,
+            "y": 224
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Sign",
+        "sections": [
+          {
+            "name": "Pinsir Shadow",
+            "access_rules": [
+              "sign, food, flute"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 625,
+            "y": 292
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Magnemite: Picture",
+            "ref": "Magnemite/Picture"
+          },
+          {
+            "name": "Magnemite: Same Pkmn",
+            "ref": "Magnemite/Picture"
+          },
+          {
+            "name": "Magneton: Picture",
+            "ref": "Magneton/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 607,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "Secret Exit",
+        "sections": [
+          {
+            "name": "Tunnel",
+            "access_rules": [
+              "@Logic/Throwable"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 663,
+            "y": 147
+          }
+        ]
+      }
+    ]
+  }
+]

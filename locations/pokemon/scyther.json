@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Scyther",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach, pester"
+        ]
+      }
+    ]
+  }
+]

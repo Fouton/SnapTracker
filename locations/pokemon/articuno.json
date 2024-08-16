@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Articuno",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave, flute"
+        ]
+      }
+    ]
+  }
+]

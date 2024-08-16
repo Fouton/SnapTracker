@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bulbasaur",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "river, wonderfull_off",
+          "river, @Logic/Throwable, wonderfull_on",
+          "cave"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "river, @Logic/Throwable",
+          "cave"
+        ]
+      }
+    ]
+  }
+]

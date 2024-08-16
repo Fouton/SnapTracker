@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Vileplume",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "river, flute"
+        ]
+      }
+    ]
+  }
+]

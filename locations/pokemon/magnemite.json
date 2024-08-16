@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Magnemite",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel, food"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "tunnel, food"
+        ]
+      }
+    ]
+  }
+]

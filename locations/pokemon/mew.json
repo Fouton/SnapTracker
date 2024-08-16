@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Mew",
+    "sections": [
+      {
+        "name": "Picture (Game Completion)",
+        "access_rules": [
+          "allsigns, @Logic/Throwable"
+        ]
+      },
+      {
+        "name": "Rare Pokemon",
+        "access_rules": [
+          "allsigns, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

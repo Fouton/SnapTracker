@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Slowbro",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "river, food"
+        ]
+      }
+    ]
+  }
+]

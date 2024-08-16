@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Squirtle",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "valley, pester",
+          "valley, dash"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Ditto",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave, pester"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "cave, pester"
+        ]
+      }
+    ]
+  }
+]

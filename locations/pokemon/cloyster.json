@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Cloyster",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "river"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "river"
+        ]
+      }
+    ]
+  }
+]

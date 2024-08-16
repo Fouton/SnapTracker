@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Magikarp",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach, @Logic/Throwable",
+          "tunnel",
+          "volcano, @Logic/Throwable",
+          "river, @Logic/Throwable",
+          "cave, @Logic/Throwable",
+          "valley, wonderful_off",
+          "valley, @Logic/Throwable, wonderful_on"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "river, @Logic/Throwable",
+          "cave"
+        ]
+      }
+    ]
+  }
+]

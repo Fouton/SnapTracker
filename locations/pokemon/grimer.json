@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Grimer",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave"
+        ]
+      }
+    ]
+  }
+]

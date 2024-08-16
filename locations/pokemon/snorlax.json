@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Snorlax",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach, flute",
+          "beach, pester"
+        ]
+      }
+    ]
+  }
+]

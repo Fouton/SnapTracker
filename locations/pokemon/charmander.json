@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Charmander",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "volcano"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "volcano, food"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Gyarados",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley, pester"
+        ]
+      }
+    ]
+  }
+]

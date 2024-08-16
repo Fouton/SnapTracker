@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Charmeleon",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "volcano, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

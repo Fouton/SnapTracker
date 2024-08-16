@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Volcano",
+    "access_rules": [
+      "volcano"
+    ],
+    "children": [
+      {
+        "name": "Pokemon Sign",
+        "sections": [
+          {
+            "name": "Koffing Smoke",
+            "access_rules": [
+              "sign, pester"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 35,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Rapidash",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Rapidash/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Rapidash/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 85,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Vulpix/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Vulpix/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 192,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Charmander: Picture",
+            "ref": "Charmander/Picture"
+          },
+          {
+            "name": "Charmeleon: Picture",
+            "ref": "Charmeleon/Picture"
+          },
+          {
+            "name": "Magmar: Picture",
+            "ref": "Magmar/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 402,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Moltres",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Moltres/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 517,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Charmander/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Charmander/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 525,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Magmar",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Magmar/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Magmar/Same Pkmn"
+          },
+          {
+            "name": "Fighting Magmar",
+            "ref": "Magmar/Fighting Magmar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 610,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Growlithe: Picture",
+            "ref": "Growlithe/Picture"
+          },
+          {
+            "name": "Growlithe: Same Pkmn",
+            "ref": "Growlithe/Same Pkmn"
+          },
+          {
+            "name": "Arcanine: Picture",
+            "ref": "Arcanine/Picture"
+          },
+          {
+            "name": "Arcanine: Same Pkmn",
+            "ref": "Arcanine/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 711,
+            "y": 178
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Charmeleon: Picture",
+            "ref": "Charmeleon/Picture"
+          },
+          {
+            "name": "Charizard: Picture",
+            "ref": "Charizard/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 626,
+            "y": 109
+          }
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "sections": [
+          {
+            "name": "Magikarp: Picture",
+            "ref": "Magikarp/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volcano",
+            "x": 700,
+            "y": 100
+          }
+        ]
+      }
+    ]
+  }
+]

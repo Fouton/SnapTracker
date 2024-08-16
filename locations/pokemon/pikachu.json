@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Pikachu",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach",
+          "tunnel",
+          "river",
+          "cave, wonderful_off",
+          "cave, @Logic/Throwable, wonderful_on"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "beach, pester"
+        ]
+      },
+      {
+        "name": "Surfing Pikachu",
+        "access_rules": [
+          "beach, food"
+        ]
+      },
+      {
+        "name": "Pikachu on a Stump",
+        "access_rules": [
+          "beach, pester"
+        ]
+      },
+      {
+        "name": "Pikachu on a Ball",
+        "access_rules": [
+          "tunnel"
+        ]
+      },
+      {
+        "name": "Speed Pikachu",
+        "access_rules": [
+          "river"
+        ]
+      },
+      {
+        "name": "Balloon Pikachu",
+        "access_rules": [
+          "cave, @Logic/Throwable"
+        ]
+      },
+      {
+        "name": "Flying Pikachu",
+        "access_rules": [
+          "cave, @Logic/Throwable, flute"
+        ]
+      }
+    ]
+  }
+]

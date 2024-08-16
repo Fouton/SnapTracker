@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Doduo",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach"
+        ]
+      }
+    ]
+  }
+]

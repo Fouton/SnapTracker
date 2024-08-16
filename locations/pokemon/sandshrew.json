@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sandshrew",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley, dash, wonderful_off",
+          "valley, pester"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "valley, food, pester"
+        ]
+      }
+    ]
+  }
+]

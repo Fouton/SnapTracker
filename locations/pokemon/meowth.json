@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Meowth",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach"
+        ]
+      }
+    ]
+  }
+]

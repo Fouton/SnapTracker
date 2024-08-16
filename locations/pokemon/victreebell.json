@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Victreebell",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

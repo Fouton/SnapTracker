@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Jigglypuff",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "cave, @Logic/Throwable"
+        ]
+      },
+      {
+        "name": "Jigglypuff on Stage",
+        "access_rules": [
+          "cave, @Logic/Throwable"
+        ]
+      },
+      {
+        "name": "Jigglypuff Trio on Stage",
+        "access_rules": [
+          "cave, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

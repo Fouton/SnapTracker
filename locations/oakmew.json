@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Oak's Lab & Rainbow Cloud",
+    "children": [
+      {
+        "name": "New Pokemon Pics",
+        "sections": [
+          {
+            "name": "Count: 6",
+            "access_rules": [
+              "newpic:6"
+            ]
+          },
+          {
+            "name": "Count: 22",
+            "access_rules": [
+              "newpic:22"
+            ]
+          },
+          {
+            "name": "Count: 40",
+            "access_rules": [
+              "newpic:40"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oakmew",
+            "x": 104,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Dash Engine",
+        "sections": [
+          {
+            "name": "Unlock",
+            "access_rules": [
+              "sign"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oakmew",
+            "x": 156,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Zero-One",
+        "sections": [
+          {
+            "name": "Free"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oakmew",
+            "x": 52,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Mew",
+        "sections": [
+          {
+            "name": "Rare Picture",
+            "ref": "Mew/Rare Pokemon"
+          },
+          {
+            "name": "Picture (Game Completion)",
+            "ref": "Mew/Picture (Game Completion)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oakmew",
+            "x": 104,
+            "y": 155
+          }
+        ]
+      }
+    ]
+  }
+]

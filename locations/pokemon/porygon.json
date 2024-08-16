@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Porygon",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "river, pester"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "river, pester, food"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "name": "River",
+    "access_rules": [
+      "river"
+    ],
+    "children": [
+      {
+        "name": "Magikarp",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Magikarp/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 180,
+            "y": 261
+          }
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Poliwag/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Poliwag/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 170,
+            "y": 222
+          }
+        ]
+      },
+      {
+        "name": "Bulbasaur",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Bulbasaur/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Bulbasaur/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 74,
+            "y": 214
+          }
+        ]
+      },
+      {
+        "name": "Vileplume",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Vileplume/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Vileplume/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 131,
+            "y": 124
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Sign",
+        "sections": [
+          {
+            "name": "Cubone Tree",
+            "access_rules": [
+              "sign, flute"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 139,
+            "y": 141
+          }
+        ]
+      },
+      {
+        "name": "Shellder",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Shellder/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Shellder/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 89,
+            "y": 77
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Slowpoke: Picture",
+            "ref": "Slowpoke/Picture"
+          },
+          {
+            "name": "Slowbro: Picture",
+            "ref": "Slowbro/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 106,
+            "y": 28
+          }
+        ]
+      },
+      {
+        "name": "Metapod",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Metapod/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Metapod/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 193,
+            "y": 151
+          }
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Psyduck/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Psyduck/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 257,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Porygon",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Porygon/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Porygon/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 300,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Shelder: Picture",
+            "ref": "Shellder/Picture"
+          },
+          {
+            "name": "Shelder: Same Pkmn",
+            "ref": "Shellder/Same Pkmn"
+          },
+          {
+            "name": "Cloyster: Picture",
+            "ref": "Cloyster/Picture"
+          },
+          {
+            "name": "Cloyster: Same Pkmn",
+            "ref": "Cloyster/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 336,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Secret Exit",
+        "sections": [
+          {
+            "name": "River",
+            "access_rules": [
+              "pester"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 380,
+            "y": 147
+          }
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Pikachu/Picture"
+          },
+          {
+            "name": "Speed Pikachu",
+            "ref": "Pikachu/Speed Pikachu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 393,
+            "y": 74
+          }
+        ]
+      }
+    ]
+  }
+]

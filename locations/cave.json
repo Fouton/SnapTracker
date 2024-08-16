@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Cave",
+    "access_rules": [
+      "cave"
+    ],
+    "children": [
+      {
+        "name": "Zubat",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Zubat/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Zubat/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 59,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "Grimer",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Grimer/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 59,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Bulbasaur: Picture",
+            "ref": "Bulbasaur/Picture"
+          },
+          {
+            "name": "Ditto: Picture",
+            "ref": "Ditto/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 107,
+            "y": 261
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Grimer: Picture",
+            "ref": "Grimer/Picture"
+          },
+          {
+            "name": "Muk: Picture",
+            "ref": "Muk/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 167,
+            "y": 226
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Bulbasaur: Picture",
+            "ref": "Bulbasaur/Picture"
+          },
+          {
+            "name": "Bulbasaur: Same Pkmn",
+            "ref": "Bulbasaur/Same Pkmn"
+          },
+          {
+            "name": "Ditto: Picture",
+            "ref": "Ditto/Picture"
+          },
+          {
+            "name": "Ditto: Same Pkmn",
+            "ref": "Ditto/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 225,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Jigglypuff: Picture",
+            "ref": "Jigglypuff/Picture"
+          },
+          {
+            "name": "Koffing: Picture",
+            "ref": "Koffing/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 285,
+            "y": 134
+          }
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Magikarp/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 344,
+            "y": 182
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Weepinbell: Picture",
+            "ref": "Weepinbell/Picture"
+          },
+          {
+            "name": "Victreebell: Picture",
+            "ref": "Victreebell/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 383,
+            "y": 156
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Sign",
+        "sections": [
+          {
+            "name": "Constellation of Mewtwo",
+            "access_rules": [
+              "sign"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 381,
+            "y": 46
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Zubat: Picture",
+            "ref": "Zubat/Picture"
+          },
+          {
+            "name": "Pikachu: Picture",
+            "ref": "Pikachu/Picture"
+          },
+          {
+            "name": "Pikachu: Balloon Pikachu",
+            "ref": "Pikachu/Balloon Pikachu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 508,
+            "y": 214
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Articuno: Picture",
+            "ref": "Articuno/Picture"
+          },
+          {
+            "name": "Jynx: Picture",
+            "ref": "Jynx/Picture"
+          },
+          {
+            "name": "Jynx: Same Pkmn",
+            "ref": "Jynx/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 555,
+            "y": 243
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Jigglypuff: Picture",
+            "ref": "Jigglypuff/Picture"
+          },
+          {
+            "name": "Jigglypuff: Same Pkmn",
+            "ref": "Jigglypuff/Same Pkmn"
+          },
+          {
+            "name": "Jigglypuff on Stage",
+            "ref": "Jigglypuff/Jigglypuff on Stage"
+          },
+          {
+            "name": "Jigglypuff Trio on Stage",
+            "ref": "Jigglypuff/Jigglypuff Trio on Stage"
+          },
+          {
+            "name": "Pikachu: Picture",
+            "ref": "Pikachu/Picture"
+          },
+          {
+            "name": "Pikachu: Flying Pikachu",
+            "ref": "Pikachu/Flying Pikachu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cave",
+            "x": 703,
+            "y": 219
+          }
+        ]
+      }
+    ]
+  }
+]

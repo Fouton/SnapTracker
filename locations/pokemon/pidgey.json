@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Pidgey",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "beach"
+        ]
+      },
+      {
+        "name": "Gust-Using Pidgey",
+        "access_rules": [
+          "beach"
+        ]
+      }
+    ]
+  }
+]

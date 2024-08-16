@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Eevee",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach"
+        ]
+      }
+    ]
+  }
+]

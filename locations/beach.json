@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Beach",
+    "access_rules": [
+      "beach"
+    ],
+    "children": [
+      {
+        "name": "Pidgey",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Pidgey/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Pidgey/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 176,
+            "y": 74
+          }
+        ]
+      },
+      {
+        "name": "Doduo",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Doduo/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 161,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Pikachu/Picture"
+          },
+          {
+            "name": "Surfing Pikachu",
+            "ref": "Pikachu/Surfing Pikachu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 155,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Lapras",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Lapras/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 34,
+            "y": 246
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Sign",
+        "sections": [
+          {
+            "name": "Kingler Rock",
+            "access_rules": [
+              "sign"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 193,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Butterfree/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Butterfree/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 155,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Snorlax/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 196,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Meowth",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Meowth/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 252,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Lapras",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Lapras/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Lapras/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 329,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Scyther: Picture",
+            "ref": "Scyther/Picture"
+          },
+          {
+            "name": "Pikachu: Picture",
+            "ref": "Pikachu/Picture"
+          },
+          {
+            "name": "Pikachu: Same Pkmn",
+            "ref": "Pikachu/Same Pkmn"
+          },
+          {
+            "name": "Pikachu on a Stump",
+            "ref": "Pikachu/Pikachu on a Stump"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 311,
+            "y": 326
+          }
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Magikarp/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 410,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Chansey: Picture",
+            "ref": "Chansey/Picture"
+          },
+          {
+            "name": "Eevee: Picture",
+            "ref": "Eevee/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 552,
+            "y": 326
+          }
+        ]
+      },
+      {
+        "name": "Lapras",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Lapras/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Lapras/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 516,
+            "y": 401
+          }
+        ]
+      },
+      {
+        "name": "Khangaskan",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Khangaskan/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 563,
+            "y": 433
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Meowth: Picture",
+            "ref": "Meowth/Picture"
+          },
+          {
+            "name": "Pidgey: Picture",
+            "ref": "Pidgey/Picture"
+          },
+          {
+            "name": "Pidgey: Same Pkmn",
+            "ref": "Pidgey/Same Pkmn"
+          },
+          {
+            "name": "Pidgey: Gust-Using Pidgey",
+            "ref": "Pidgey/Gust-Using Pidgey"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 654,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "access_rules": [
+          "@Logic/Throwable"
+        ],
+        "children": [
+          {
+            "name": "Magikarp",
+            "sections": [
+              {
+                "name": "Picture",
+                "ref": "Magikarp/Picture"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "beach",
+                "x": 690,
+                "y": 263
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

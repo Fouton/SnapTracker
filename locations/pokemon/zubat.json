@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Zubat",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel",
+          "cave"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "cave"
+        ]
+      }
+    ]
+  }
+]

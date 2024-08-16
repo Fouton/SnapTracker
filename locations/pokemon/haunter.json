@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Haunter",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel"
+        ]
+      }
+    ]
+  }
+]

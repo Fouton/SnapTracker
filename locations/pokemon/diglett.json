@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Diglett",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel"
+        ]
+      }
+    ]
+  }
+]

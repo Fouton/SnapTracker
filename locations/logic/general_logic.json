@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Logic",
+    "children": [
+      {
+        "name": "Throwable",
+        "access_rules": [
+          "food",
+          "pester"
+        ]
+      }
+    ]
+  }
+]

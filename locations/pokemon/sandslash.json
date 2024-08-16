@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Sandslash",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley, wonderful_off",
+          "valley, pester, wonderful_on"
+        ]
+      }
+    ]
+  }
+]

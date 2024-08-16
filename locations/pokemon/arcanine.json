@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Arcanine",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "volcano, pester"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "volcano, food, pester"
+        ]
+      }
+    ]
+  }
+]

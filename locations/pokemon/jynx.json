@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Jynx",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "cave, flute"
+        ]
+      }
+    ]
+  }
+]

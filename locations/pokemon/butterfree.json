@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Butterfree",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "beach"
+        ]
+      }
+    ]
+  }
+]

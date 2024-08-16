@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Valley",
+    "access_rules": [
+      "valley"
+    ],
+    "children": [
+      {
+        "name": "Goldeen",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Goldeen/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 66,
+            "y": 33
+          }
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Squirtle/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Squirtle/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 72,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Mankey: Picture",
+            "ref": "Mankey/Picture"
+          },
+          {
+            "name": "Magikarp: Picture",
+            "ref": "Magikarp/Picture"
+          },
+          {
+            "name": "Magikarp: Same Pkmn",
+            "ref": "Magikarp/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 40,
+            "y": 123
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Sign",
+        "sections": [
+          {
+            "name": "Mt Dugtrio",
+            "access_rules": [
+              "sign"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 52,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Geodude: Picture",
+            "ref": "Geodude/Picture"
+          },
+          {
+            "name": "Geodude: Same Pkmn",
+            "ref": "Geodude/Same Pkmn"
+          },
+          {
+            "name": "Sandshrew: Picture",
+            "ref": "Sandshrew/Picture"
+          },
+          {
+            "name": "Sandshrew: Same Pkmn",
+            "ref": "Sandshrew/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 116,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Graveler: Picture",
+            "ref": "Graveler/Picture"
+          },
+          {
+            "name": "Sandslash: Picture",
+            "ref": "Sandslash/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 176,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Magikarp: Picture",
+            "ref": "Magikarp/Picture"
+          },
+          {
+            "name": "Graveler Group Dance",
+            "ref": "Graveler/Graveler Group Dance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 145,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Gyarados/Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 148,
+            "y": 337
+          }
+        ]
+      },
+      {
+        "name": "Staryu",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Staryu/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Staryu/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 198,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Multiple Pokemon",
+        "sections": [
+          {
+            "name": "Dratini: Picture",
+            "ref": "Dratini/Picture"
+          },
+          {
+            "name": "Dragonite: Picture",
+            "ref": "Dragonite/Picture"
+          },
+          {
+            "name": "Starmie: Picture",
+            "ref": "Starmie/Picture"
+          },
+          {
+            "name": "Starmie: Same Pkmn",
+            "ref": "Starmie/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 285,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "sections": [
+          {
+            "name": "Picture",
+            "ref": "Squirtle/Picture"
+          },
+          {
+            "name": "Same Pkmn",
+            "ref": "Squirtle/Same Pkmn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 391,
+            "y": 439
+          }
+        ]
+      },
+      {
+        "name": "Mankey & Exit",
+        "sections": [
+          {
+            "name": "Mankey: Picture",
+            "ref": "Mankey/Picture"
+          },
+          {
+            "name": "Secret Exit: Valley",
+            "access_rules": [
+              "pester"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "valley",
+            "x": 419,
+            "y": 469
+          }
+        ]
+      }
+    ]
+  }
+]

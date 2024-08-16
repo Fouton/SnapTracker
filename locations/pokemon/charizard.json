@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Charizard",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "volcano, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

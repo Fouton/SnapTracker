@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Graveler",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "valley"
+        ]
+      },
+      {
+        "name": "Graveler's Group Dance",
+        "access_rules": [
+          "valley, flute"
+        ]
+      }
+    ]
+  }
+]

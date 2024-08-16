@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Muk",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave, pester"
+        ]
+      }
+    ]
+  }
+]

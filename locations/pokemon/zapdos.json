@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Zapdos",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel, food, flute"
+        ]
+      }
+    ]
+  }
+]

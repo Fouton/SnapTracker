@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Weepinbell",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "cave"
+        ]
+      }
+    ]
+  }
+]

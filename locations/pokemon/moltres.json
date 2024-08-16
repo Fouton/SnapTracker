@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Moltres",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "volcano, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

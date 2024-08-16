@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Khangaskan",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach, wonderful_off",
+          "beach, @Logic/Throwable, wonderful_on"
+        ]
+      }
+    ]
+  }
+]

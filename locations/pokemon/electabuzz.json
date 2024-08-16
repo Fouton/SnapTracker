@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Electabuzz",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel"
+        ]
+      },
+      {
+        "name": "Same Pkmn",
+        "access_rules": [
+          "tunnel, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

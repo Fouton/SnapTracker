@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Chansey",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

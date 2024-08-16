@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Mankey",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Goldeen",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "valley, @Logic/Throwable"
+        ]
+      }
+    ]
+  }
+]

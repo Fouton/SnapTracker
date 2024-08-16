@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Magneton",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "tunnel, food"
+        ]
+      }
+    ]
+  }
+]
