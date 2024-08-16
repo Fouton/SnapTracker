@@ -5,9 +5,16 @@
 	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
-        "name": "Picture",
+        "name": "Tunnel Picture",
         "access_rules": [
           "tunnel",
+          "{cave}"
+        ]
+      },
+      {
+        "name": "Cave Picture",
+        "access_rules": [
+          "{tunnel}",
           "cave"
         ]
       },

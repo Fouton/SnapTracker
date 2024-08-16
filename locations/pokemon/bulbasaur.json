@@ -5,17 +5,32 @@
 	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
-        "name": "Picture",
+        "name": "River Picture",
         "access_rules": [
           "river, wonderfull_off",
           "river, @Logic/Throwable, wonderfull_on",
+          "{cave}"
+        ]
+      },
+      {
+        "name": "Cave Picture",
+        "access_rules": [
+          "{river, wonderfull_off}",
+          "{river, @Logic/Throwable, wonderfull_on}",
           "cave"
         ]
       },
       {
-        "name": "Same Pkmn",
+        "name": "River Same Pkmn",
         "access_rules": [
           "river, @Logic/Throwable",
+          "{cave}"
+        ]
+      },
+      {
+        "name": "Cave Same Pkmn",
+        "access_rules": [
+          "{river, @Logic/Throwable}",
           "cave"
         ]
       }

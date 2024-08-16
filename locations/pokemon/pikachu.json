@@ -5,11 +5,41 @@
 	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
-        "name": "Picture",
+        "name": "Beach Picture",
         "access_rules": [
           "beach",
+          "{tunnel}",
+          "{river}",
+          "{cave, wonderful_off}",
+          "{cave, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "Tunnel Picture",
+        "access_rules": [
+          "{beach}",
           "tunnel",
+          "{river}",
+          "{cave, wonderful_off}",
+          "{cave, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "River Picture",
+        "access_rules": [
+          "{beach}",
+          "{tunnel}",
           "river",
+          "{cave, wonderful_off}",
+          "{cave, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "Cave Picture",
+        "access_rules": [
+          "{beach}",
+          "{tunnel}",
+          "{river}",
           "cave, wonderful_off",
           "cave, @Logic/Throwable, wonderful_on"
         ]

@@ -1,17 +1,77 @@
 [
   {
     "name": "Magikarp",
-	"chest_unopened_img": "images/pokemon/Magikarp.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Magikarp.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
-        "name": "Picture",
+        "name": "Beach Picture",
         "access_rules": [
           "beach, @Logic/Throwable",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "{valley, wonderful_off}",
+          "{valley, @Logic/Throwable, wonderful_on}",
+          "{tunnel}"
+        ]
+      },
+      {
+        "name": "Tunnel Picture",
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
           "tunnel",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "{valley, wonderful_off}",
+          "{valley, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "Volcano Picture",
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
           "volcano, @Logic/Throwable",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "{valley, wonderful_off}",
+          "{valley, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "River Picture",
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
           "river, @Logic/Throwable",
+          "{cave, @Logic/Throwable}",
+          "{valley, wonderful_off}",
+          "{valley, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "Cave Picture",
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
           "cave, @Logic/Throwable",
+          "{valley, wonderful_off}",
+          "{valley, @Logic/Throwable, wonderful_on}"
+        ]
+      },
+      {
+        "name": "Valley Picture",
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
           "valley, wonderful_off",
           "valley, @Logic/Throwable, wonderful_on"
         ]
@@ -19,8 +79,7 @@
       {
         "name": "Same Pkmn",
         "access_rules": [
-          "river, @Logic/Throwable",
-          "cave"
+          "valley, @Logic/Throwable"
         ]
       }
     ]
