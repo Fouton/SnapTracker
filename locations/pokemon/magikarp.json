@@ -1,6 +1,8 @@
 [
   {
     "name": "Magikarp",
+	"chest_unopened_img": "images/pokemon/Magikarp.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

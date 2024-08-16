@@ -1,6 +1,8 @@
 [
   {
     "name": "Porygon",
+	"chest_unopened_img": "images/pokemon/Porygon.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

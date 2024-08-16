@@ -79,6 +79,8 @@
       },
       {
         "name": "Pokemon Sign",
+        "chest_unopened_img": "images/otherchecks/KinglerRock.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Kingler Rock",
@@ -252,11 +254,11 @@
         ]
       },
       {
-        "name": "Khangaskan",
+        "name": "Kangaskhan",
         "sections": [
           {
             "name": "Picture",
-            "ref": "Khangaskan/Picture"
+            "ref": "Kangaskhan/Picture"
           }
         ],
         "map_locations": [

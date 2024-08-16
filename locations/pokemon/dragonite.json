@@ -1,6 +1,8 @@
 [
   {
     "name": "Dragonite",
+	"chest_unopened_img": "images/pokemon/Dragonite.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

@@ -1,6 +1,8 @@
 [
   {
     "name": "Zapdos",
+	"chest_unopened_img": "images/pokemon/Zapdos.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

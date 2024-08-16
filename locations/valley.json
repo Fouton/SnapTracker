@@ -67,6 +67,8 @@
       },
       {
         "name": "Pokemon Sign",
+        "chest_unopened_img": "images/otherchecks/MtDugtrio.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Mt Dugtrio",
@@ -139,8 +141,16 @@
             "ref": "Magikarp/Picture"
           },
           {
+            "name": "Graveler: Picture",
+            "ref": "Graveler/Picture"
+          },
+          {
+            "name": "Graveler: Same Pkmn",
+            "ref": "Graveler/Same Pkmn"
+          },
+          {
             "name": "Graveler Group Dance",
-            "ref": "Graveler/Graveler Group Dance"
+            "ref": "Graveler/Graveler's Group Dance"
           }
         ],
         "map_locations": [
@@ -193,6 +203,10 @@
           {
             "name": "Dratini: Picture",
             "ref": "Dratini/Picture"
+          },
+          {
+            "name": "Dratini: Same Pkmn",
+            "ref": "Dratini/Same Pkmn"
           },
           {
             "name": "Dragonite: Picture",

@@ -1,6 +1,8 @@
 [
   {
     "name": "Moltres",
+	"chest_unopened_img": "images/pokemon/Moltres.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

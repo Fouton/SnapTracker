@@ -153,8 +153,8 @@
             "ref": "Weepinbell/Picture"
           },
           {
-            "name": "Victreebell: Picture",
-            "ref": "Victreebell/Picture"
+            "name": "Victreebel: Picture",
+            "ref": "Victreebel/Picture"
           }
         ],
         "map_locations": [
@@ -167,6 +167,8 @@
       },
       {
         "name": "Pokemon Sign",
+        "chest_unopened_img": "images/otherchecks/MewtwoConstellation.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Constellation of Mewtwo",

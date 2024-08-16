@@ -1,6 +1,8 @@
 [
   {
     "name": "Lapras",
+	"chest_unopened_img": "images/pokemon/Lapras.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

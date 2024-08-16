@@ -1,6 +1,8 @@
 [
   {
     "name": "Mew",
+    "chest_unopened_img": "images/pokemon/Mew.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture (Game Completion)",

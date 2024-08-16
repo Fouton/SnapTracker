@@ -1,13 +1,13 @@
 [
   {
-    "name": "Magneton",
-	"chest_unopened_img": "images/pokemon/Magneton.png",
+    "name": "Victreebel",
+	"chest_unopened_img": "images/pokemon/Victreebel.png",
 	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
         "access_rules": [
-          "tunnel, food"
+          "cave, @Logic/Throwable"
         ]
       }
     ]

@@ -1,6 +1,8 @@
 [
   {
     "name": "Eevee",
+	"chest_unopened_img": "images/pokemon/Eevee.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

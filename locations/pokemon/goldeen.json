@@ -1,6 +1,8 @@
 [
   {
     "name": "Goldeen",
+	"chest_unopened_img": "images/pokemon/Goldeen.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

@@ -1,6 +1,8 @@
 [
   {
     "name": "Grimer",
+	"chest_unopened_img": "images/pokemon/Grimer.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

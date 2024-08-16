@@ -1,6 +1,8 @@
 [
   {
     "name": "Dugtrio",
+	"chest_unopened_img": "images/pokemon/Dugtrio.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

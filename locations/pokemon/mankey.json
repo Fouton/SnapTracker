@@ -1,6 +1,8 @@
 [
   {
     "name": "Mankey",
+	"chest_unopened_img": "images/pokemon/Mankey.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",

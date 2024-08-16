@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Kangaskhan",
+    "chest_unopened_img": "images/pokemon/Kangaskhan.png",
+    "chest_opened_img": "images/oakface.png",
+    "sections": [
+      {
+        "name": "Picture",
+        "access_rules": [
+          "beach, wonderful_off",
+          "beach, @Logic/Throwable, wonderful_on"
+        ]
+      }
+    ]
+  }
+]

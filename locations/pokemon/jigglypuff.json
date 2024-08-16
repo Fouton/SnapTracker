@@ -1,6 +1,8 @@
 [
   {
     "name": "Jigglypuff",
+	"chest_unopened_img": "images/pokemon/Jigglypuff.png",
+	"chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
