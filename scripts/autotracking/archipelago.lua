@@ -97,6 +97,9 @@ function onItem(index, item_id, item_name, player_number)
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
             else
+                if v[1] == "signpics" then
+                    obj.CurrentStage = obj.CurrentStage + 1
+                end
                 obj.Active = true
             end
         elseif v[2] == "consumable" then
