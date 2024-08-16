@@ -1,8 +1,8 @@
 [
   {
-    "name": "Ditto
-	"chest_unopened_img": "images/pokemon/Ditto.png",
-	"chest_opened_img": "images/oakface.png",
+    "name": "Ditto",
+    "chest_unopened_img": "images/pokemon/Ditto.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
