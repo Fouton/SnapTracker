@@ -46,7 +46,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Pikachu/Picture"
+            "ref": "Pikachu/Beach Picture"
           },
           {
             "name": "Surfing Pikachu",
@@ -178,7 +178,7 @@
           },
           {
             "name": "Pikachu: Picture",
-            "ref": "Pikachu/Picture"
+            "ref": "Pikachu/Beach Picture"
           },
           {
             "name": "Pikachu: Same Pkmn",
@@ -202,7 +202,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Magikarp/Picture"
+            "ref": "Magikarp/Beach Picture"
           }
         ],
         "map_locations": [
@@ -299,25 +299,17 @@
       },
       {
         "name": "Magikarp",
-        "access_rules": [
-          "@Logic/Throwable"
-        ],
-        "children": [
+        "sections": [
           {
-            "name": "Magikarp",
-            "sections": [
-              {
-                "name": "Picture",
-                "ref": "Magikarp/Picture"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "beach",
-                "x": 690,
-                "y": 263
-              }
-            ]
+            "name": "Picture",
+            "ref": "Magikarp/Beach Picture"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "beach",
+            "x": 690,
+            "y": 263
           }
         ]
       }

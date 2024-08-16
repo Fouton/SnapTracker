@@ -10,7 +10,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Zubat/Picture"
+            "ref": "Zubat/Cave Picture"
           },
           {
             "name": "Same Pkmn",
@@ -46,7 +46,7 @@
         "sections": [
           {
             "name": "Bulbasaur: Picture",
-            "ref": "Bulbasaur/Picture"
+            "ref": "Bulbasaur/Cave Picture"
           },
           {
             "name": "Ditto: Picture",
@@ -86,11 +86,11 @@
         "sections": [
           {
             "name": "Bulbasaur: Picture",
-            "ref": "Bulbasaur/Picture"
+            "ref": "Bulbasaur/Cave Picture"
           },
           {
             "name": "Bulbasaur: Same Pkmn",
-            "ref": "Bulbasaur/Same Pkmn"
+            "ref": "Bulbasaur/Cave Same Pkmn"
           },
           {
             "name": "Ditto: Picture",
@@ -134,7 +134,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Magikarp/Picture"
+            "ref": "Magikarp/Cave Picture"
           }
         ],
         "map_locations": [
@@ -190,11 +190,11 @@
         "sections": [
           {
             "name": "Zubat: Picture",
-            "ref": "Zubat/Picture"
+            "ref": "Zubat/Cave Picture"
           },
           {
             "name": "Pikachu: Picture",
-            "ref": "Pikachu/Picture"
+            "ref": "Pikachu/Cave Picture"
           },
           {
             "name": "Pikachu: Balloon Pikachu",
@@ -254,7 +254,7 @@
           },
           {
             "name": "Pikachu: Picture",
-            "ref": "Pikachu/Picture"
+            "ref": "Pikachu/Cave Picture"
           },
           {
             "name": "Pikachu: Flying Pikachu",

@@ -10,7 +10,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Pikachu/Picture"
+            "ref": "Pikachu/Tunnel Picture"
           },
           {
             "name": "Pikachu on a Ball",
@@ -86,7 +86,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Zubat/Picture"
+            "ref": "Zubat/Tunnel Picture"
           }
         ],
         "map_locations": [
@@ -118,7 +118,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Magikarp/Picture"
+            "ref": "Magikarp/Tunnel Picture"
           }
         ],
         "map_locations": [
@@ -138,7 +138,7 @@
           },
           {
             "name": "Zubat: Picture",
-            "ref": "Zubat/Picture"
+            "ref": "Zubat/Tunnel Picture"
           }
         ],
         "map_locations": [

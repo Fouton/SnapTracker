@@ -10,7 +10,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Magikarp/Picture"
+            "ref": "Magikarp/River Picture"
           }
         ],
         "map_locations": [
@@ -46,11 +46,11 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Bulbasaur/Picture"
+            "ref": "Bulbasaur/River Picture"
           },
           {
             "name": "Same Pkmn",
-            "ref": "Bulbasaur/Same Pkmn"
+            "ref": "Bulbasaur/River Same Pkmn"
           }
         ],
         "map_locations": [
@@ -252,7 +252,7 @@
         "sections": [
           {
             "name": "Picture",
-            "ref": "Pikachu/Picture"
+            "ref": "Pikachu/River Picture"
           },
           {
             "name": "Speed Pikachu",
