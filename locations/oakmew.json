@@ -4,6 +4,8 @@
     "children": [
       {
         "name": "New Pokemon Pics",
+        "chest_unopened_img": "images/otherchecks/New.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Count: 6",
@@ -28,12 +30,14 @@
           {
             "map": "oakmew",
             "x": 104,
-            "y": 95
+            "y": 85
           }
         ]
       },
       {
         "name": "Dash Engine",
+        "chest_unopened_img": "images/dash.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Unlock",
@@ -46,12 +50,14 @@
           {
             "map": "oakmew",
             "x": 156,
-            "y": 95
+            "y": 85
           }
         ]
       },
       {
         "name": "Zero-One",
+        "chest_unopened_img": "images/otherchecks/ZeroOne.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Free"
@@ -61,7 +67,7 @@
           {
             "map": "oakmew",
             "x": 52,
-            "y": 95
+            "y": 85
           }
         ]
       },

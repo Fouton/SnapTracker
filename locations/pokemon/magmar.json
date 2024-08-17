@@ -19,7 +19,8 @@
       {
         "name": "Fighting Magmar",
         "access_rules": [
-          "volcano, food"
+          "volcano, food",
+          "volcano, [food], pester"
         ]
       }
     ]

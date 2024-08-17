@@ -7,16 +7,16 @@
       {
         "name": "River Picture",
         "access_rules": [
-          "river, wonderfull_off",
-          "river, @Logic/Throwable, wonderfull_on",
+          "river, wonderful_off",
+          "river, @Logic/Throwable, wonderful_on",
           "{cave}"
         ]
       },
       {
         "name": "Cave Picture",
         "access_rules": [
-          "{river, wonderfull_off}",
-          "{river, @Logic/Throwable, wonderfull_on}",
+          "{river, wonderful_off}",
+          "{river, @Logic/Throwable, wonderful_on}",
           "cave"
         ]
       },

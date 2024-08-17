@@ -13,7 +13,7 @@
       {
         "name": "Same Pkmn",
         "access_rules": [
-          "volcano, food, pester"
+          "volcano, [food], pester"
         ]
       }
     ]
