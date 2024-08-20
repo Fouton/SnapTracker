@@ -1,7 +1,7 @@
 ﻿{
-  "name": "PokeSnapTracker",
+  "name": "Pokemon Snap Tracker",
   "game_name": "Pokemon Snap 64",
-  "package_version": "1.1.2.3",
+  "package_version": "1.1.2.4",
   "package_uid": "snaptracker",
   "author": "Fouton",
   "variants": {
@@ -9,5 +9,6 @@
       "display_name": "Main Tracker",
       "flags": ["ap"]
     }
-  }
+  },
+  "versions_url": "https://raw.githubusercontent.com/Fouton/SnapTracker/main/versions.json"
 }
