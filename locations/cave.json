@@ -13,6 +13,10 @@
             "ref": "Zubat/Cave Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Zubat/Cave Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Zubat/Same Pkmn"
           }
@@ -31,6 +35,10 @@
           {
             "name": "Picture",
             "ref": "Grimer/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Grimer/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -49,8 +57,16 @@
             "ref": "Bulbasaur/Cave Picture"
           },
           {
+            "name": "Bulbasaur: Wonderful Picture",
+            "ref": "Bulbasaur/Cave Wonderful Picture"
+          },
+          {
             "name": "Ditto: Picture",
             "ref": "Ditto/Picture"
+          },
+          {
+            "name": "Ditto: Wonderful Picture",
+            "ref": "Ditto/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -69,8 +85,16 @@
             "ref": "Grimer/Picture"
           },
           {
+            "name": "Grimer: Wonderful Picture",
+            "ref": "Grimer/Wonderful Picture"
+          },
+          {
             "name": "Muk: Picture",
             "ref": "Muk/Picture"
+          },
+          {
+            "name": "Muk: Wonderful Picture",
+            "ref": "Muk/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -89,12 +113,20 @@
             "ref": "Bulbasaur/Cave Picture"
           },
           {
+            "name": "Bulbasaur: Wonderful Picture",
+            "ref": "Bulbasaur/Cave Wonderful Picture"
+          },
+          {
             "name": "Bulbasaur: Same Pkmn",
             "ref": "Bulbasaur/Cave Same Pkmn"
           },
           {
             "name": "Ditto: Picture",
             "ref": "Ditto/Picture"
+          },
+          {
+            "name": "Ditto: Wonderful Picture",
+            "ref": "Ditto/Wonderful Picture"
           },
           {
             "name": "Ditto: Same Pkmn",
@@ -117,8 +149,16 @@
             "ref": "Jigglypuff/Picture"
           },
           {
+            "name": "Jigglypuff: Wonderful Picture",
+            "ref": "Jigglypuff/Wonderful Picture"
+          },
+          {
             "name": "Koffing: Picture",
             "ref": "Koffing/Picture"
+          },
+          {
+            "name": "Koffing: Wonderful Picture",
+            "ref": "Koffing/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -135,6 +175,10 @@
           {
             "name": "Picture",
             "ref": "Magikarp/Cave Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Magikarp/Cave Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -153,8 +197,16 @@
             "ref": "Weepinbell/Picture"
           },
           {
+            "name": "Weepinbell: Wonderful Picture",
+            "ref": "Weepinbell/Wonderful Picture"
+          },
+          {
             "name": "Victreebel: Picture",
             "ref": "Victreebel/Picture"
+          },
+          {
+            "name": "Victreebel: Wonderful Picture",
+            "ref": "Victreebel/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -193,8 +245,16 @@
             "ref": "Zubat/Cave Picture"
           },
           {
+            "name": "Zubat: Wonderful Picture",
+            "ref": "Zubat/Cave Wonderful Picture"
+          },
+          {
             "name": "Pikachu: Picture",
             "ref": "Pikachu/Cave Picture"
+          },
+          {
+            "name": "Pikachu: Wonderful Picture",
+            "ref": "Pikachu/Cave Wonderful Picture"
           },
           {
             "name": "Pikachu: Balloon Pikachu",
@@ -217,8 +277,16 @@
             "ref": "Articuno/Picture"
           },
           {
+            "name": "Articuno: Wonderful Picture",
+            "ref": "Articuno/Wonderful Picture"
+          },
+          {
             "name": "Jynx: Picture",
             "ref": "Jynx/Picture"
+          },
+          {
+            "name": "Jynx: Wonderful Picture",
+            "ref": "Jynx/Wonderful Picture"
           },
           {
             "name": "Jynx: Same Pkmn",
@@ -241,6 +309,10 @@
             "ref": "Jigglypuff/Picture"
           },
           {
+            "name": "Jigglypuff: Wonderful Picture",
+            "ref": "Jigglypuff/Wonderful Picture"
+          },
+          {
             "name": "Jigglypuff: Same Pkmn",
             "ref": "Jigglypuff/Same Pkmn"
           },
@@ -255,6 +327,10 @@
           {
             "name": "Pikachu: Picture",
             "ref": "Pikachu/Cave Picture"
+          },
+          {
+            "name": "Pikachu: Wonderful Picture",
+            "ref": "Pikachu/Cave Wonderful Picture"
           },
           {
             "name": "Pikachu: Flying Pikachu",

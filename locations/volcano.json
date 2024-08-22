@@ -33,6 +33,10 @@
             "ref": "Rapidash/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Rapidash/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Rapidash/Same Pkmn"
           }
@@ -51,6 +55,10 @@
           {
             "name": "Picture",
             "ref": "Vulpix/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Vulpix/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -73,12 +81,24 @@
             "ref": "Charmander/Picture"
           },
           {
+            "name": "Charmander: Wonderful Picture",
+            "ref": "Charmander/Wonderful Picture"
+          },
+          {
             "name": "Charmeleon: Picture",
             "ref": "Charmeleon/Picture"
           },
           {
+            "name": "Charmeleon: Wonderful Picture",
+            "ref": "Charmeleon/Wonderful Picture"
+          },
+          {
             "name": "Magmar: Picture",
             "ref": "Magmar/Picture"
+          },
+          {
+            "name": "Magmar: Wonderful Picture",
+            "ref": "Magmar/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -95,6 +115,10 @@
           {
             "name": "Picture",
             "ref": "Moltres/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Moltres/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -111,6 +135,10 @@
           {
             "name": "Picture",
             "ref": "Charmander/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Charmander/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -131,6 +159,10 @@
           {
             "name": "Picture",
             "ref": "Magmar/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Magmar/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -157,12 +189,20 @@
             "ref": "Growlithe/Picture"
           },
           {
+            "name": "Growlithe: Wonderful Picture",
+            "ref": "Growlithe/Wonderful Picture"
+          },
+          {
             "name": "Growlithe: Same Pkmn",
             "ref": "Growlithe/Same Pkmn"
           },
           {
             "name": "Arcanine: Picture",
             "ref": "Arcanine/Picture"
+          },
+          {
+            "name": "Arcanine: Wonderful Picture",
+            "ref": "Arcanine/Wonderful Picture"
           },
           {
             "name": "Arcanine: Same Pkmn",
@@ -185,8 +225,16 @@
             "ref": "Charmeleon/Picture"
           },
           {
+            "name": "Charmeleon: Wonderful Picture",
+            "ref": "Charmeleon/Wonderful Picture"
+          },
+          {
             "name": "Charizard: Picture",
             "ref": "Charizard/Picture"
+          },
+          {
+            "name": "Charizard: Wonderful Picture",
+            "ref": "Charizard/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -203,6 +251,10 @@
           {
             "name": "Magikarp: Picture",
             "ref": "Magikarp/Volcano Picture"
+          },
+          {
+            "name": "Magikarp: Wonderful Picture",
+            "ref": "Magikarp/Volcano Wonderful Picture"
           }
         ],
         "map_locations": [

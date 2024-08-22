@@ -11,6 +11,10 @@
           {
             "name": "Picture",
             "ref": "Goldeen/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Goldeen/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -27,6 +31,10 @@
           {
             "name": "Picture",
             "ref": "Squirtle/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Squirtle/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -49,8 +57,16 @@
             "ref": "Mankey/Picture"
           },
           {
+            "name": "Mankey: Wonderful Picture",
+            "ref": "Mankey/Wonderful Picture"
+          },
+          {
             "name": "Magikarp: Picture",
             "ref": "Magikarp/Valley Picture"
+          },
+          {
+            "name": "Magikarp: Wonderful Picture",
+            "ref": "Magikarp/Valley Wonderful Picture"
           },
           {
             "name": "Magikarp: Same Pkmn",
@@ -93,12 +109,20 @@
             "ref": "Geodude/Picture"
           },
           {
+            "name": "Geodude: Wonderful Picture",
+            "ref": "Geodude/Wonderful Picture"
+          },
+          {
             "name": "Geodude: Same Pkmn",
             "ref": "Geodude/Same Pkmn"
           },
           {
             "name": "Sandshrew: Picture",
             "ref": "Sandshrew/Picture"
+          },
+          {
+            "name": "Sandshrew: Wonderful Picture",
+            "ref": "Sandshrew/Wonderful Picture"
           },
           {
             "name": "Sandshrew: Same Pkmn",
@@ -121,8 +145,16 @@
             "ref": "Graveler/Picture"
           },
           {
+            "name": "Graveler: Wonderful Picture",
+            "ref": "Graveler/Wonderful Picture"
+          },
+          {
             "name": "Sandslash: Picture",
             "ref": "Sandslash/Picture"
+          },
+          {
+            "name": "Sandslash: Wonderful Picture",
+            "ref": "Sandslash/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -141,8 +173,16 @@
             "ref": "Magikarp/Picture"
           },
           {
+            "name": "Magikarp: Wonderful Picture",
+            "ref": "Magikarp/Wonderful Picture"
+          },
+          {
             "name": "Graveler: Picture",
             "ref": "Graveler/Picture"
+          },
+          {
+            "name": "Graveler: Wonderful Picture",
+            "ref": "Graveler/Wonderful Picture"
           },
           {
             "name": "Graveler: Same Pkmn",
@@ -167,6 +207,10 @@
           {
             "name": "Picture",
             "ref": "Gyarados/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Gyarados/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -183,6 +227,10 @@
           {
             "name": "Picture",
             "ref": "Staryu/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Staryu/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -205,6 +253,10 @@
             "ref": "Dratini/Picture"
           },
           {
+            "name": "Dratini: Wonderful Picture",
+            "ref": "Dratini/Wonderful Picture"
+          },
+          {
             "name": "Dratini: Same Pkmn",
             "ref": "Dratini/Same Pkmn"
           },
@@ -213,8 +265,16 @@
             "ref": "Dragonite/Picture"
           },
           {
+            "name": "Dragonite: Wonderful Picture",
+            "ref": "Dragonite/Wonderful Picture"
+          },
+          {
             "name": "Starmie: Picture",
             "ref": "Starmie/Picture"
+          },
+          {
+            "name": "Starmie: Wonderful Picture",
+            "ref": "Starmie/Wonderful Picture"
           },
           {
             "name": "Starmie: Same Pkmn",
@@ -237,6 +297,10 @@
             "ref": "Squirtle/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Squirtle/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Squirtle/Same Pkmn"
           }
@@ -257,7 +321,13 @@
             "ref": "Mankey/Picture"
           },
           {
+            "name": "Mankey: Wonderful Picture",
+            "ref": "Mankey/Wonderful Picture"
+          },
+          {
             "name": "Secret Exit: Valley",
+            "chest_unopened_img": "images/pokemon/mankey.png",
+            "chest_opened_img": "images/oakface.png",
             "access_rules": [
               "pester"
             ]

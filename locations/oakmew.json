@@ -4,7 +4,7 @@
     "children": [
       {
         "name": "New Pokemon Pics",
-        "chest_unopened_img": "images/otherchecks/New.png",
+        "chest_unopened_img": "images/otherchecks/PicRoll.png",
         "chest_opened_img": "images/oakface.png",
         "sections": [
           {
@@ -35,12 +35,12 @@
         ]
       },
       {
-        "name": "Dash Engine",
+        "name": "Sign Detector",
         "chest_unopened_img": "images/dash.png",
         "chest_opened_img": "images/oakface.png",
         "sections": [
           {
-            "name": "Unlock",
+            "name": "Reward",
             "access_rules": [
               "sign"
             ]

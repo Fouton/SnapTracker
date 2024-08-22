@@ -11,6 +11,10 @@
           {
             "name": "Picture",
             "ref": "Magikarp/River Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Magikarp/River Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -27,6 +31,10 @@
           {
             "name": "Picture",
             "ref": "Poliwag/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Poliwag/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -49,6 +57,10 @@
             "ref": "Bulbasaur/River Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Bulbasaur/River Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Bulbasaur/River Same Pkmn"
           }
@@ -67,6 +79,10 @@
           {
             "name": "Picture",
             "ref": "Vileplume/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Vileplume/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -109,6 +125,10 @@
             "ref": "Shellder/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Shellder/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Shellder/Same Pkmn"
           }
@@ -129,8 +149,16 @@
             "ref": "Slowpoke/Picture"
           },
           {
+            "name": "Slowpoke: Wonderful Picture",
+            "ref": "Slowpoke/Wonderful Picture"
+          },
+          {
             "name": "Slowbro: Picture",
             "ref": "Slowbro/Picture"
+          },
+          {
+            "name": "Slowbro: Wonderful Picture",
+            "ref": "Slowbro/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -147,6 +175,10 @@
           {
             "name": "Picture",
             "ref": "Metapod/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Metapod/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -169,6 +201,10 @@
             "ref": "Psyduck/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Psyduck/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Psyduck/Same Pkmn"
           }
@@ -187,6 +223,10 @@
           {
             "name": "Picture",
             "ref": "Porygon/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Porygon/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -209,12 +249,20 @@
             "ref": "Shellder/Picture"
           },
           {
+            "name": "Shelder: Wonderful Picture",
+            "ref": "Shellder/Wonderful Picture"
+          },
+          {
             "name": "Shelder: Same Pkmn",
             "ref": "Shellder/Same Pkmn"
           },
           {
             "name": "Cloyster: Picture",
             "ref": "Cloyster/Picture"
+          },
+          {
+            "name": "Cloyster: Wonderful Picture",
+            "ref": "Cloyster/Wonderful Picture"
           },
           {
             "name": "Cloyster: Same Pkmn",
@@ -234,6 +282,8 @@
         "sections": [
           {
             "name": "River",
+            "chest_unopened_img": "images/pokemon/Porygon.png",
+            "chest_opened_img": "images/oakface.png",
             "access_rules": [
               "pester"
             ]
@@ -253,6 +303,10 @@
           {
             "name": "Picture",
             "ref": "Pikachu/River Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Pikachu/River Wonderful Picture"
           },
           {
             "name": "Speed Pikachu",

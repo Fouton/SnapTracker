@@ -13,6 +13,10 @@
             "ref": "Pikachu/Tunnel Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Pikachu/Tunnel Wonderful Picture"
+          },
+          {
             "name": "Pikachu on a Ball",
             "ref": "Pikachu/Pikachu on a Ball"
           }
@@ -33,6 +37,10 @@
             "ref": "Electrode/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Electrode/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Electrode/Same Pkmn"
           }
@@ -51,6 +59,10 @@
           {
             "name": "Picture",
             "ref": "Electabuzz/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Electabuzz/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -67,6 +79,10 @@
           {
             "name": "Picture",
             "ref": "Kakuna/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Kakuna/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -87,6 +103,10 @@
           {
             "name": "Picture",
             "ref": "Zubat/Tunnel Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Zubat/Tunnel Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -103,6 +123,10 @@
           {
             "name": "Picture",
             "ref": "Zapdos/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Zapdos/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -119,6 +143,10 @@
           {
             "name": "Picture",
             "ref": "Magikarp/Tunnel Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Magikarp/Tunnel Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -137,8 +165,16 @@
             "ref": "Haunter/Picture"
           },
           {
+            "name": "Haunter: Wonderful Picture",
+            "ref": "Haunter/Wonderful Picture"
+          },
+          {
             "name": "Zubat: Picture",
             "ref": "Zubat/Tunnel Picture"
+          },
+          {
+            "name": "Zubat: Wonderful Picture",
+            "ref": "Zubat/Tunnel Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -155,6 +191,10 @@
           {
             "name": "Picture",
             "ref": "Electabuzz/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Electabuzz/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -175,6 +215,10 @@
           {
             "name": "Picture",
             "ref": "Diglett/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Diglett/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -191,6 +235,10 @@
           {
             "name": "Picture",
             "ref": "Dugtrio/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Dugtrio/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -233,12 +281,20 @@
             "ref": "Magnemite/Picture"
           },
           {
+            "name": "Magnemite: Wonderful Picture",
+            "ref": "Magnemite/Wonderful Picture"
+          },
+          {
             "name": "Magnemite: Same Pkmn",
             "ref": "Magnemite/Picture"
           },
           {
             "name": "Magneton: Picture",
             "ref": "Magneton/Picture"
+          },
+          {
+            "name": "Magneton: Wonderful Picture",
+            "ref": "Magneton/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -251,6 +307,8 @@
       },
       {
         "name": "Secret Exit",
+        "chest_unopened_img": "images/pokemon/Electrode.png",
+        "chest_opened_img": "images/oakface.png",
         "sections": [
           {
             "name": "Tunnel",

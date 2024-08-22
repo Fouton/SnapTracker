@@ -13,6 +13,10 @@
             "ref": "Pidgey/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Pidgey/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Pidgey/Same Pkmn"
           }
@@ -31,6 +35,10 @@
           {
             "name": "Picture",
             "ref": "Doduo/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Doduo/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -47,6 +55,10 @@
           {
             "name": "Picture",
             "ref": "Pikachu/Beach Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Pikachu/Beach Wonderful Picture"
           },
           {
             "name": "Surfing Pikachu",
@@ -67,6 +79,10 @@
           {
             "name": "Picture",
             "ref": "Lapras/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Lapras/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -105,6 +121,10 @@
             "ref": "Butterfree/Picture"
           },
           {
+            "name": "Wonderful Picture",
+            "ref": "Butterfree/Wonderful Picture"
+          },
+          {
             "name": "Same Pkmn",
             "ref": "Butterfree/Same Pkmn"
           }
@@ -123,6 +143,10 @@
           {
             "name": "Picture",
             "ref": "Snorlax/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Snorlax/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -139,6 +163,10 @@
           {
             "name": "Picture",
             "ref": "Meowth/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Meowth/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -155,6 +183,10 @@
           {
             "name": "Picture",
             "ref": "Lapras/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Lapras/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -177,8 +209,16 @@
             "ref": "Scyther/Picture"
           },
           {
+            "name": "Scyther: Wonderful Picture",
+            "ref": "Scyther/Wonderful Picture"
+          },
+          {
             "name": "Pikachu: Picture",
             "ref": "Pikachu/Beach Picture"
+          },
+          {
+            "name": "Pikachu: Wonderful Picture",
+            "ref": "Pikachu/Beach Wonderful Picture"
           },
           {
             "name": "Pikachu: Same Pkmn",
@@ -203,6 +243,10 @@
           {
             "name": "Picture",
             "ref": "Magikarp/Beach Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Magikarp/Beach Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -221,8 +265,16 @@
             "ref": "Chansey/Picture"
           },
           {
+            "name": "Chansey: Wonderful Picture",
+            "ref": "Chansey/Wonderful Picture"
+          },
+          {
             "name": "Eevee: Picture",
             "ref": "Eevee/Picture"
+          },
+          {
+            "name": "Eevee: Wonderful Picture",
+            "ref": "Eevee/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -239,6 +291,10 @@
           {
             "name": "Picture",
             "ref": "Lapras/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Lapras/Wonderful Picture"
           },
           {
             "name": "Same Pkmn",
@@ -259,6 +315,10 @@
           {
             "name": "Picture",
             "ref": "Kangaskhan/Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Kangaskhan/Wonderful Picture"
           }
         ],
         "map_locations": [
@@ -277,8 +337,16 @@
             "ref": "Meowth/Picture"
           },
           {
+            "name": "Meowth: Wonderful Picture",
+            "ref": "Meowth/Wonderful Picture"
+          },
+          {
             "name": "Pidgey: Picture",
             "ref": "Pidgey/Picture"
+          },
+          {
+            "name": "Pidgey: Wonderful Picture",
+            "ref": "Pidgey/Wonderful Picture"
           },
           {
             "name": "Pidgey: Same Pkmn",
@@ -303,6 +371,10 @@
           {
             "name": "Picture",
             "ref": "Magikarp/Beach Picture"
+          },
+          {
+            "name": "Wonderful Picture",
+            "ref": "Magikarp/Beach Wonderful Picture"
           }
         ],
         "map_locations": [
