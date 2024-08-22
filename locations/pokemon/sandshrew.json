@@ -1,13 +1,25 @@
 [
   {
     "name": "Sandshrew",
-	"chest_unopened_img": "images/pokemon/Sandshrew.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Sandshrew.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
-          "valley, dash, wonderful_off",
+          "valley, dash",
+          "valley, pester"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
           "valley, pester"
         ]
       },

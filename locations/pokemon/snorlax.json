@@ -1,11 +1,24 @@
 [
   {
     "name": "Snorlax",
-	"chest_unopened_img": "images/pokemon/Snorlax.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Snorlax.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "beach, flute",
+          "beach, pester"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "beach, flute",
           "beach, pester"

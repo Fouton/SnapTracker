@@ -1,11 +1,24 @@
 [
   {
     "name": "Zubat",
-	"chest_unopened_img": "images/pokemon/Zubat.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Zubat.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Tunnel Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "tunnel",
+          "{cave}"
+        ]
+      },
+      {
+        "name": "Tunnel Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "tunnel",
           "{cave}"
@@ -13,6 +26,19 @@
       },
       {
         "name": "Cave Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "{tunnel}",
+          "cave"
+        ]
+      },
+      {
+        "name": "Cave Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "{tunnel}",
           "cave"

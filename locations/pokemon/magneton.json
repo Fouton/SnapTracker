@@ -6,6 +6,18 @@
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "tunnel, food"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "tunnel, food"
         ]

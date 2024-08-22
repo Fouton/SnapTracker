@@ -6,74 +6,170 @@
     "sections": [
       {
         "name": "Beach Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "beach, @Logic/Throwable",
+          "{tunnel}",
           "{volcano, @Logic/Throwable}",
           "{river, @Logic/Throwable}",
           "{cave, @Logic/Throwable}",
-          "{valley, wonderful_off}",
-          "{valley, @Logic/Throwable, wonderful_on}",
-          "{tunnel}"
+          "{valley}"
+        ]
+      },
+      {
+        "name": "Beach Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "beach, @Logic/Throwable",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "{valley, @Logic/Throwable}"
         ]
       },
       {
         "name": "Tunnel Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach, @Logic/Throwable}",
           "tunnel",
           "{volcano, @Logic/Throwable}",
           "{river, @Logic/Throwable}",
           "{cave, @Logic/Throwable}",
-          "{valley, wonderful_off}",
-          "{valley, @Logic/Throwable, wonderful_on}"
+          "{valley}"
+        ]
+      },
+      {
+        "name": "Tunnel Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "tunnel",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "{valley, @Logic/Throwable}"
         ]
       },
       {
         "name": "Volcano Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach, @Logic/Throwable}",
           "{tunnel}",
           "volcano, @Logic/Throwable",
           "{river, @Logic/Throwable}",
           "{cave, @Logic/Throwable}",
-          "{valley, wonderful_off}",
-          "{valley, @Logic/Throwable, wonderful_on}"
+          "{valley}"
+        ]
+      },
+      {
+        "name": "Volcano Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "volcano, @Logic/Throwable",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "{valley, @Logic/Throwable}"
         ]
       },
       {
         "name": "River Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach, @Logic/Throwable}",
           "{tunnel}",
           "{volcano, @Logic/Throwable}",
           "river, @Logic/Throwable",
           "{cave, @Logic/Throwable}",
-          "{valley, wonderful_off}",
-          "{valley, @Logic/Throwable, wonderful_on}"
+          "{valley}"
+        ]
+      },
+      {
+        "name": "River Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
+          "river, @Logic/Throwable",
+          "{cave, @Logic/Throwable}",
+          "{valley, @Logic/Throwable}"
         ]
       },
       {
         "name": "Cave Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach, @Logic/Throwable}",
           "{tunnel}",
           "{volcano, @Logic/Throwable}",
           "{river, @Logic/Throwable}",
           "cave, @Logic/Throwable",
-          "{valley, wonderful_off}",
-          "{valley, @Logic/Throwable, wonderful_on}"
+          "{valley}"
+        ]
+      },
+      {
+        "name": "Cave Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "cave, @Logic/Throwable",
+          "{valley, @Logic/Throwable}"
         ]
       },
       {
         "name": "Valley Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach, @Logic/Throwable}",
           "{tunnel}",
           "{volcano, @Logic/Throwable}",
           "{river, @Logic/Throwable}",
           "{cave, @Logic/Throwable}",
-          "valley, wonderful_off",
-          "valley, @Logic/Throwable, wonderful_on"
+          "valley"
+        ]
+      },
+      {
+        "name": "Valley Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach, @Logic/Throwable}",
+          "{tunnel}",
+          "{volcano, @Logic/Throwable}",
+          "{river, @Logic/Throwable}",
+          "{cave, @Logic/Throwable}",
+          "valley, @Logic/Throwable"
         ]
       },
       {

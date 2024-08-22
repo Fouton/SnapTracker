@@ -1,47 +1,103 @@
 [
   {
     "name": "Pikachu",
-	"chest_unopened_img": "images/pokemon/Pikachu.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Pikachu.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Beach Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "beach",
           "{tunnel}",
           "{river}",
-          "{cave, wonderful_off}",
-          "{cave, @Logic/Throwable, wonderful_on}"
+          "{cave}"
+        ]
+      },
+      {
+        "name": "Beach Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "beach",
+          "{tunnel}",
+          "{river}",
+          "{cave, @Logic/Throwable}"
         ]
       },
       {
         "name": "Tunnel Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach}",
           "tunnel",
           "{river}",
-          "{cave, wonderful_off}",
-          "{cave, @Logic/Throwable, wonderful_on}"
+          "{cave}"
+        ]
+      },
+      {
+        "name": "Tunnel Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach}",
+          "tunnel",
+          "{river}",
+          "{cave, @Logic/Throwable}"
         ]
       },
       {
         "name": "River Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach}",
           "{tunnel}",
           "river",
-          "{cave, wonderful_off}",
-          "{cave, @Logic/Throwable, wonderful_on}"
+          "{cave}"
+        ]
+      },
+      {
+        "name": "River Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach}",
+          "{tunnel}",
+          "river",
+          "{cave, @Logic/Throwable}"
         ]
       },
       {
         "name": "Cave Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
           "{beach}",
           "{tunnel}",
           "{river}",
-          "cave, wonderful_off",
-          "cave, @Logic/Throwable, wonderful_on"
+          "cave"
+        ]
+      },
+      {
+        "name": "Cave Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{beach}",
+          "{tunnel}",
+          "{river}",
+          "cave, @Logic/Throwable"
         ]
       },
       {

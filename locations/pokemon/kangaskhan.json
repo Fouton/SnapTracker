@@ -6,9 +6,20 @@
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
-          "beach, wonderful_off",
-          "beach, @Logic/Throwable, wonderful_on"
+          "beach"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "beach, @Logic/Throwable"
         ]
       }
     ]

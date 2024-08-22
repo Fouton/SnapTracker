@@ -1,11 +1,23 @@
 [
   {
     "name": "Electabuzz",
-	"chest_unopened_img": "images/pokemon/Electabuzz.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Electabuzz.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "tunnel"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "tunnel"
         ]

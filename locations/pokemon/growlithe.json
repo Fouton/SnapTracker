@@ -1,11 +1,23 @@
 [
   {
     "name": "Growlithe",
-	"chest_unopened_img": "images/pokemon/Growlithe.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Growlithe.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "volcano, pester"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "volcano, pester"
         ]

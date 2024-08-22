@@ -1,22 +1,46 @@
 [
   {
     "name": "Bulbasaur",
-	"chest_unopened_img": "images/pokemon/Bulbasaur.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Bulbasaur.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "River Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
-          "river, wonderful_off",
-          "river, @Logic/Throwable, wonderful_on",
+          "river",
+          "{cave}"
+        ]
+      },
+      {
+        "name": "River Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "river, @Logic/Throwable",
           "{cave}"
         ]
       },
       {
         "name": "Cave Picture",
+        "visibility_rules": [
+          "normal"
+        ],
         "access_rules": [
-          "{river, wonderful_off}",
-          "{river, @Logic/Throwable, wonderful_on}",
+          "{river}",
+          "cave"
+        ]
+      },
+      {
+        "name": "Cave Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
+        "access_rules": [
+          "{river, @Logic/Throwable}",
           "cave"
         ]
       },

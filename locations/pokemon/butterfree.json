@@ -1,11 +1,23 @@
 [
   {
     "name": "Butterfree",
-	"chest_unopened_img": "images/pokemon/Butterfree.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Butterfree.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "beach"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "beach"
         ]

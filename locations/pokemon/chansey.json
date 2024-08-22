@@ -1,11 +1,23 @@
 [
   {
     "name": "Chansey",
-	"chest_unopened_img": "images/pokemon/Chansey.png",
-	"chest_opened_img": "images/oakface.png",
+    "chest_unopened_img": "images/pokemon/Chansey.png",
+    "chest_opened_img": "images/oakface.png",
     "sections": [
       {
         "name": "Picture",
+        "visibility_rules": [
+          "normal"
+        ],
+        "access_rules": [
+          "beach, @Logic/Throwable"
+        ]
+      },
+      {
+        "name": "Wonderful Picture",
+        "visibility_rules": [
+          "wonderful"
+        ],
         "access_rules": [
           "beach, @Logic/Throwable"
         ]
