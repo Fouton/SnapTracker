@@ -1,11 +1,19 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.3.0",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.3.0/SnapTracker.zip",
+			"sha256": "C7FD3EA2D7E52BA6935A7C1D5ED64B6B795453F8508F39243DFDFED1CD78EB81",
+			"changelog": [
+				"Fixed Setting Autotracking"
+			]
+		},
+		{
 			"package_version": "1.1.2.6",
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.2.6/SnapTracker.zip",
 			"sha256": "331F87F2786FF0FB8705016993B56EDDEEE2BAB0DD1E0A7D73C3FBCE026D3E91",
 			"changelog": [
-				"Added Version Detection & Easy Updating"
+				"Fixed minor bugs"
 			]
 		},
 		{
@@ -13,7 +21,7 @@
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.2.5/SnapTracker.zip",
 			"sha256": "E54E6FB6FEA383EFE0981A36B6909205E0D9688CC2D8CBD9A44DEFCEB5FD1745",
 			"changelog": [
-				"Added Version Detection & Easy Updating"
+				"Updated to new combined apworld"
 			]
 		},
 		{
