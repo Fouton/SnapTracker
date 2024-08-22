@@ -50,7 +50,11 @@ function onClear(slot_data)
                     obj.CurrentStage = 0
                     obj.Active = false
                 elseif v[2] == "consumable" then
-                    obj.AcquiredCount = ojb.initial_quantity
+                    if v[1] == "film" then
+                        obj.AcquiredCount = 15
+                    else
+                        obj.AcquiredCount = 0
+                    end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
                 end
@@ -58,6 +62,18 @@ function onClear(slot_data)
                 print(string.format("onClear: could not find object for code %s", v[1]))
             end
         end
+    end
+
+    print(dump_table(slot_data))
+    
+    if slot_data["Normal_Pic_Checks_enabled"] then
+        local obj = Tracker:FindObjectForCode("normal")
+        obj.Active = true
+    end
+
+    if slot_data["Wonderful_Pic_Checks_enabled"] then
+        local obj = Tracker:FindObjectForCode("wonderful")
+        obj.Active = true
     end
 
     LOCAL_ITEMS = {}

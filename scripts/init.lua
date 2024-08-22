@@ -1,3 +1,6 @@
+-- Utility Script for helper functions etc.
+ScriptHost:LoadScript("scripts/utils.lua")
+
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddMaps("maps/maps.json")

@@ -1,21 +1,14 @@
 [
-  {
-    "name": "Wonderful Requirement",
-    "type": "progressive",
-    "codes": "wonderful_logic",
-    "loop": false,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/wonderful.png",
-        "img_mods": "@disabled",
-        "codes": "wonderful_off"
-      },
-      {
-        "img": "images/wonderful.png",
-        "codes": "wonderful_on",
-        "inherit_codes": false
-      }
-    ]
+	{
+    "name": "Normal Pictures",
+    "type": "toggle",
+    "img": "images/wonderful.png",
+    "codes": "normal"
+  },
+	{
+    "name": "Wonderful Pictures",
+    "type": "toggle",
+    "img": "images/wonderful.png",
+    "codes": "wonderful"
   }
 ]
