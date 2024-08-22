@@ -66,12 +66,12 @@ function onClear(slot_data)
 
     print(dump_table(slot_data))
     
-    if slot_data["Normal_Pic_Checks_enabled"] then
+    if slot_data["Normal_Pic_Checks_enabled"] == 1 then
         local obj = Tracker:FindObjectForCode("normal")
         obj.Active = true
     end
 
-    if slot_data["Wonderful_Pic_Checks_enabled"] then
+    if slot_data["Wonderful_Pic_Checks_enabled"] == 1 then
         local obj = Tracker:FindObjectForCode("wonderful")
         obj.Active = true
     end
