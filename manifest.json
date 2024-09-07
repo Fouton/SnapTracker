@@ -1,13 +1,14 @@
 ﻿{
   "name": "Pokemon Snap Tracker",
-  "game_name": "Pokemon Snap 64",
-  "package_version": "1.1.2.6",
+  "game_name": "Manual_PokemonSnap_AliRobotnik",
+  "package_version": "1.1.4.0",
+  "min_poptracker_version": "0.27.1",
   "package_uid": "snaptracker",
   "author": "Fouton",
   "variants": {
     "classic": {
       "display_name": "Main Tracker",
-      "flags": ["ap"]
+      "flags": ["ap", "apmanual"]
     }
   },
   "versions_url": "https://raw.githubusercontent.com/Fouton/SnapTracker/main/versions.json"
