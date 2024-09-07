@@ -5,6 +5,7 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/sectionID.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -66,14 +67,18 @@ function onClear(slot_data)
 
     print(dump_table(slot_data))
     
+    local obj = Tracker:FindObjectForCode("normal")
     if slot_data["Normal_Pic_Checks_enabled"] == 1 then
-        local obj = Tracker:FindObjectForCode("normal")
         obj.Active = true
+    else    
+        obj.Active = false
     end
 
+    local obj = Tracker:FindObjectForCode("wonderful")
     if slot_data["Wonderful_Pic_Checks_enabled"] == 1 then
-        local obj = Tracker:FindObjectForCode("wonderful")
         obj.Active = true
+    else    
+        obj.Active = false
     end
 
     LOCAL_ITEMS = {}
@@ -190,6 +195,36 @@ function onBounce(json)
     end
     -- your code goes here
 end
+
+ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
+    if (section.AvailableChestCount == 0) then  -- this only works for 1 chest per section
+        -- AP location cleared
+        local sectionID = section.FullID
+        local apID = sectionIDToAPID[sectionID]
+        if apID ~= nil then
+            local res = Archipelago:LocationChecks({apID})
+            if res then
+                print("Sent " .. tostring(apID) .. " for " .. tostring(sectionID))
+            else
+                print("Error sending " .. tostring(apID) .. " for " .. tostring(sectionID))
+            end
+        else
+            print(tostring(sectionID) .. " is not an AP location")
+        end
+    end
+end)
+
+ScriptHost:AddOnLocationSectionChangedHandler("victory", function(section)
+    local sectionID = section.FullID
+    if sectionID == "Mew/Picture (Game Completion)" then
+        local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
+        if res then
+            print("Sent Victory")
+        else
+            print("Error sending Victory")
+        end
+    end
+end)
 
 -- add AP callbacks
 -- un-/comment as needed
