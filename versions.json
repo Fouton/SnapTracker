@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.4.0",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.0/SnapTracker.zip",
+			"sha256": "6D5389BA059266ED4C0CB88791791F1A75766E8BEBDED218804CF694E9D3734B",
+			"changelog": [
+				"Fixed Magnemite Same Pkmn not showing",
+				"Tracker can now function as a Manual Client"
+			]
+		},
+		{
 			"package_version": "1.1.3.0",
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.3.0/SnapTracker.zip",
 			"sha256": "C7FD3EA2D7E52BA6935A7C1D5ED64B6B795453F8508F39243DFDFED1CD78EB81",
