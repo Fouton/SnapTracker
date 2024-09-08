@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.4.1",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.1/SnapTracker.zip",
+			"sha256": "302AA16CDC99534FA1AED6D720730614C4B05E3206A8C13C78CFD3A1526A5553",
+			"changelog": [
+				"Fixed cross-course checks",
+				"Added a !release button, accessible behind settings"
+			]
+		},
+		{
 			"package_version": "1.1.4.0",
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.0/SnapTracker.zip",
 			"sha256": "6D5389BA059266ED4C0CB88791791F1A75766E8BEBDED218804CF694E9D3734B",
