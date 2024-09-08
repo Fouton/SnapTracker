@@ -10,5 +10,16 @@
     "type": "toggle",
     "img": "images/wonderful.png",
     "codes": "wonderful"
+  },
+	{
+    "name": "Show Release Button",
+    "type": "toggle",
+    "img": "images/otherchecks/release.png",
+    "codes": "release"
+  },
+	{
+    "name": "Complete",
+    "type": "toggle",
+    "codes": "complete"
   }
 ]
