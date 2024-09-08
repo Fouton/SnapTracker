@@ -73,7 +73,7 @@
         "margin": "0,0",
         "h_alignment": "left",
         "rows": [
-          ["normal", "wonderful"]
+          ["normal", "wonderful", "release"]
         ]
       }
     ]
