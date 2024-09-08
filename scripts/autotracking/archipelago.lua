@@ -197,7 +197,30 @@ function onBounce(json)
 end
 
 ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
-    if (section.AvailableChestCount == 0) then  -- this only works for 1 chest per section
+    local sectionID = section.FullID
+    if sectionID == "Mew/Picture (Game Completion)" then
+        local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
+        if res then
+            print("Sent Victory")
+            local obj = Tracker:FindObjectForCode("complete")
+            obj.Active = true
+        else
+            print("Error sending Victory")
+        end
+    elseif sectionID == "Release/Release/Click Here To !release Game" then
+        for _, apID in pairs(sectionIDToAPID) do
+            if apID ~= nil then
+                local res = Archipelago:LocationChecks({apID})
+                if res then
+                    print("Sent " .. tostring(apID) .. " for " .. tostring(sectionID))
+                else
+                    print("Error sending " .. tostring(apID) .. " for " .. tostring(sectionID))
+                end
+            else
+                print(tostring(sectionID) .. " is not an AP location")
+            end
+        end
+    elseif (section.AvailableChestCount == 0) then  -- this only works for 1 chest per section
         -- AP location cleared
         local sectionID = section.FullID
         local apID = sectionIDToAPID[sectionID]
@@ -210,18 +233,6 @@ ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
             end
         else
             print(tostring(sectionID) .. " is not an AP location")
-        end
-    end
-end)
-
-ScriptHost:AddOnLocationSectionChangedHandler("victory", function(section)
-    local sectionID = section.FullID
-    if sectionID == "Mew/Picture (Game Completion)" then
-        local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
-        if res then
-            print("Sent Victory")
-        else
-            print("Error sending Victory")
         end
     end
 end)
