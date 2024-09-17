@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.4.2",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.2/SnapTracker.zip",
+			"sha256": "6AD5B4E2F5821C83C593EB4FF781CB9E849209FD3374C5433A57B5B6DAD00C5D",
+			"changelog": [
+				"Fixed cross-course checks again after Poptracker 0.28 broke functionality"
+			]
+		},
+		{
 			"package_version": "1.1.4.1",
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.1/SnapTracker.zip",
 			"sha256": "302AA16CDC99534FA1AED6D720730614C4B05E3206A8C13C78CFD3A1526A5553",
