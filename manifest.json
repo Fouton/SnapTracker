@@ -1,8 +1,8 @@
 ﻿{
   "name": "Pokemon Snap Tracker",
   "game_name": "Manual_PokemonSnap_AliRobotnik",
-  "package_version": "1.1.4.1",
-  "min_poptracker_version": "0.27.1",
+  "package_version": "1.1.4.3",
+  "min_poptracker_version": "0.28.0",
   "package_uid": "snaptracker",
   "author": "Fouton",
   "variants": {
