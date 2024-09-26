@@ -196,9 +196,54 @@ function onBounce(json)
     -- your code goes here
 end
 
+magikarp = {
+    "@Magikarp/Beach Picture",
+    "@Magikarp/Tunnel Picture",
+    "@Magikarp/Volcano Picture",
+    "@Magikarp/River Picture",
+    "@Magikarp/Cave Picture",
+    "@Magikarp/Valley Picture"
+}
+magikarpWonderful = {
+    "@Magikarp/Beach Wonderful Picture",
+    "@Magikarp/Tunnel Wonderful Picture",
+    "@Magikarp/Volcano Wonderful Picture",
+    "@Magikarp/River Wonderful Picture",
+    "@Magikarp/Cave Wonderful Picture",
+    "@Magikarp/Valley Wonderful Picture"
+}
+pikachu = {
+    "@Pikachu/Beach Picture",
+    "@Pikachu/Tunnel Picture",
+    "@Pikachu/River Picture",
+    "@Pikachu/Cave Picture"
+}
+pikachuWonderful = {
+    "@Pikachu/Beach Wonderful Picture",
+    "@Pikachu/Tunnel Wonderful Picture",
+    "@Pikachu/River Wonderful Picture",
+    "@Pikachu/Cave Wonderful Picture"
+}
+bulbasaur = {
+    "@Bulbasaur/River Picture",
+    "@Bulbasaur/Cave Picture"
+}
+bulbasaurWonderful = {
+    "@Bulbasaur/River Wonderful Picture",
+    "@Bulbasaur/Cave Wonderful Picture"
+}
+zubat = {
+    "@Zubat/Tunnel Picture",
+    "@Zubat/Cave Picture"
+}
+zubatWonderful = {
+    "@Zubat/Tunnel Wonderful Picture",
+    "@Zubat/Cave Wonderful Picture"
+}
+
 ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
     local sectionID = section.FullID
-    if sectionID == "Mew/Picture (Game Completion)" then
+    if sectionID == "Mew/Picture (Game Completion)" and section.AvailableChestCount == 0 then
         local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
         if res then
             print("Sent Victory")
@@ -207,7 +252,7 @@ ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
         else
             print("Error sending Victory")
         end
-    elseif sectionID == "Release/Release/Click Here To !release Game" then
+    elseif sectionID == "Release/Release/Click Here To !release Game" and section.AvailableChestCount == 0 then
         for _, apID in pairs(sectionIDToAPID) do
             if apID ~= nil then
                 local res = Archipelago:LocationChecks({apID})
@@ -234,7 +279,66 @@ ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
         else
             print(tostring(sectionID) .. " is not an AP location")
         end
+    
+        if sectionID == "Bulbasaur/River Picture" or sectionID == "Bulbasaur/Cave Picture" then
+            for i, location in ipairs(bulbasaur) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Bulbasaur/River Wonderful Picture" or sectionID == "Bulbasaur/Cave Wonderful Picture" then
+            for i, location in ipairs(bulbasaurWonderful) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Zubat/Tunnel Picture" or sectionID == "Zubat/Cave Picture" then
+            for i, location in ipairs(zubat) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Zubat/Tunnel Wonderful Picture" or sectionID == "Zubat/Cave Wonderful Picture" then
+            for i, location in ipairs(zubatWonderful) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Pikachu/Tunnel Picture" or sectionID == "Pikachu/Cave Picture" or sectionID == "Pikachu/Beach Picture" or sectionID == "Pikachu/River Picture" then
+            for i, location in ipairs(pikachu) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Pikachu/Tunnel Wonderful Picture" or sectionID == "Pikachu/Cave Wonderful Picture" or sectionID == "Pikachu/Beach Wonderful Picture" or sectionID == "Pikachu/River Wonderful Picture" then
+            for i, location in ipairs(pikachuWonderful) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Magikarp/Tunnel Picture" or sectionID == "Magikarp/Cave Picture" or sectionID == "Magikarp/Beach Picture" or sectionID == "Magikarp/River Picture" or sectionID == "Magikarp/Volcano Picture" or sectionID == "Magikarp/Valley Picture" then
+            for i, location in ipairs(magikarp) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        elseif sectionID == "Magikarp/Tunnel Wonderful Picture" or sectionID == "Magikarp/Cave Wonderful Picture" or sectionID == "Magikarp/Beach Wonderful Picture" or sectionID == "Magikarp/River Wonderful Picture" or sectionID == "Magikarp/Volcano Wonderful Picture" or sectionID == "Magikarp/Valley Wonderful Picture" then
+            for i, location in ipairs(magikarpWonderful) do
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.AvailableChestCount = 0
+                end
+            end
+        end
     end
+
 end)
 
 -- add AP callbacks
