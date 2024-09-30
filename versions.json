@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.4.5",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.5/SnapTracker.zip",
+			"sha256": "C466F9A7D4CC137A1BF39C57748F01819C009F47DC99BEBAE8D6C079A30249E8",
+			"changelog": [
+				"Fixed Bulbasaur's Same Pkmn checks working across River & Cave"
+			]
+		},
+		{
 			"package_version": "1.1.4.4",
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.4/SnapTracker.zip",
 			"sha256": "00A82512698B586C369B98E4FACB01E10A54DDB0CAE6EF6A613A02002363579E",
