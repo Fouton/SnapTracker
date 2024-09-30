@@ -232,6 +232,10 @@ bulbasaurWonderful = {
     "@Bulbasaur/River Wonderful Picture",
     "@Bulbasaur/Cave Wonderful Picture"
 }
+bulbasaurSamePkmn = {
+    "@Bulbasaur/River Same Pkmn",
+    "@Bulbasaur/Cave Same Pkmn"
+}
 zubat = {
     "@Zubat/Tunnel Picture",
     "@Zubat/Cave Picture"
@@ -279,62 +283,71 @@ ScriptHost:AddOnLocationSectionChangedHandler("manual", function(section)
         else
             print(tostring(sectionID) .. " is not an AP location")
         end
-    
-        if sectionID == "Bulbasaur/River Picture" or sectionID == "Bulbasaur/Cave Picture" then
-            for i, location in ipairs(bulbasaur) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+    end
+
+    local newState = section.AvailableChestCount
+    if sectionID == "Bulbasaur/River Picture" or sectionID == "Bulbasaur/Cave Picture" then
+        for i, location in ipairs(bulbasaur) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
+                print("help")
             end
-        elseif sectionID == "Bulbasaur/River Wonderful Picture" or sectionID == "Bulbasaur/Cave Wonderful Picture" then
-            for i, location in ipairs(bulbasaurWonderful) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Bulbasaur/River Wonderful Picture" or sectionID == "Bulbasaur/Cave Wonderful Picture" then
+        for i, location in ipairs(bulbasaurWonderful) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
-        elseif sectionID == "Zubat/Tunnel Picture" or sectionID == "Zubat/Cave Picture" then
-            for i, location in ipairs(zubat) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Bulbasaur/River Same Pkmn" or sectionID == "Bulbasaur/Cave Same Pkmn" then
+        for i, location in ipairs(bulbasaurSamePkmn) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
-        elseif sectionID == "Zubat/Tunnel Wonderful Picture" or sectionID == "Zubat/Cave Wonderful Picture" then
-            for i, location in ipairs(zubatWonderful) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Zubat/Tunnel Picture" or sectionID == "Zubat/Cave Picture" then
+        for i, location in ipairs(zubat) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
-        elseif sectionID == "Pikachu/Tunnel Picture" or sectionID == "Pikachu/Cave Picture" or sectionID == "Pikachu/Beach Picture" or sectionID == "Pikachu/River Picture" then
-            for i, location in ipairs(pikachu) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Zubat/Tunnel Wonderful Picture" or sectionID == "Zubat/Cave Wonderful Picture" then
+        for i, location in ipairs(zubatWonderful) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
-        elseif sectionID == "Pikachu/Tunnel Wonderful Picture" or sectionID == "Pikachu/Cave Wonderful Picture" or sectionID == "Pikachu/Beach Wonderful Picture" or sectionID == "Pikachu/River Wonderful Picture" then
-            for i, location in ipairs(pikachuWonderful) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Pikachu/Tunnel Picture" or sectionID == "Pikachu/Cave Picture" or sectionID == "Pikachu/Beach Picture" or sectionID == "Pikachu/River Picture" then
+        for i, location in ipairs(pikachu) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
-        elseif sectionID == "Magikarp/Tunnel Picture" or sectionID == "Magikarp/Cave Picture" or sectionID == "Magikarp/Beach Picture" or sectionID == "Magikarp/River Picture" or sectionID == "Magikarp/Volcano Picture" or sectionID == "Magikarp/Valley Picture" then
-            for i, location in ipairs(magikarp) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Pikachu/Tunnel Wonderful Picture" or sectionID == "Pikachu/Cave Wonderful Picture" or sectionID == "Pikachu/Beach Wonderful Picture" or sectionID == "Pikachu/River Wonderful Picture" then
+        for i, location in ipairs(pikachuWonderful) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
-        elseif sectionID == "Magikarp/Tunnel Wonderful Picture" or sectionID == "Magikarp/Cave Wonderful Picture" or sectionID == "Magikarp/Beach Wonderful Picture" or sectionID == "Magikarp/River Wonderful Picture" or sectionID == "Magikarp/Volcano Wonderful Picture" or sectionID == "Magikarp/Valley Wonderful Picture" then
-            for i, location in ipairs(magikarpWonderful) do
-                local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.AvailableChestCount = 0
-                end
+        end
+    elseif sectionID == "Magikarp/Tunnel Picture" or sectionID == "Magikarp/Cave Picture" or sectionID == "Magikarp/Beach Picture" or sectionID == "Magikarp/River Picture" or sectionID == "Magikarp/Volcano Picture" or sectionID == "Magikarp/Valley Picture" then
+        for i, location in ipairs(magikarp) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
+            end
+        end
+    elseif sectionID == "Magikarp/Tunnel Wonderful Picture" or sectionID == "Magikarp/Cave Wonderful Picture" or sectionID == "Magikarp/Beach Wonderful Picture" or sectionID == "Magikarp/River Wonderful Picture" or sectionID == "Magikarp/Volcano Wonderful Picture" or sectionID == "Magikarp/Valley Wonderful Picture" then
+        for i, location in ipairs(magikarpWonderful) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.AvailableChestCount = newState
             end
         end
     end
