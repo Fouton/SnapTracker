@@ -2,7 +2,7 @@
 	"versions": [
 		{
 			"package_version": "1.1.4.4",
-			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.3/SnapTracker.zip",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.4.4/SnapTracker.zip",
 			"sha256": "00A82512698B586C369B98E4FACB01E10A54DDB0CAE6EF6A613A02002363579E",
 			"changelog": [
 				"Made cross-course checks unmark in unison instead of just on their first course"
