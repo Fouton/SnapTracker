@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.5.2",
+			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.5.2/SnapTracker.zip",
+			"sha256": "a741b5684e15bc5884461aafa57f2f524ee030317e8ffdf2e7138d970a696dbf",
+			"changelog": [
+				"Updated Poliwag Same Pkmn logic to allow either throwable."
+			]
+		},
+		{
 			"package_version": "1.1.5.1",
 			"download_url": "https://github.com/Fouton/SnapTracker/releases/download/V1.1.5.1/SnapTracker.zip",
 			"sha256": "e5a782ef25eda713485385edf53dd9800c9a5c7f6bb69ec4f547db4403748cb0",
